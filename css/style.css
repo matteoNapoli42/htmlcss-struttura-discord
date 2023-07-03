@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header CCS*/
+
+#header_container{
+    background-color: grey;
+    height: 25px;
+    margin-left: 27%;
+    width: fit-content;
+    padding: 4px;
+    display: flex ;
+}
+
+.header_lateral_content{
+    background-color: red;
+    padding: 0 5px;
+}
+
+#header_central_content{
+    background-color: red;
+}
+
+/*Main CSS*/
+
+main{
+    background-color: rgb(24, 87, 138);
+    height: 300px;
+}
+
+#internal_main_block{
+    background-color: grey;
+    height: 15px;
+    width: fit-content;
+    justify-content: center;
+}
+
+
+/* Common  Section CSS*/
+.container{
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+.col{
+}
+
+/*First Section Tags*/
+
+
+/*Second Section Tags*/
+
+/*Third Section Tags*/
