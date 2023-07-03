@@ -33,9 +33,8 @@ main{
 
 #internal_main_block{
     background-color: grey;
-    height: 15px;
-    width: fit-content;
-    justify-content: center;
+    height: 140px;
+    width: 400px;
 }
 
 
