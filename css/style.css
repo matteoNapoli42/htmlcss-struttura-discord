@@ -4,58 +4,124 @@
     padding: 0;
 }
 
-/*Header CCS*/
-
-#header_container{
-    background-color: grey;
-    height: 25px;
-    margin-left: 27%;
-    width: fit-content;
-    padding: 4px;
-    display: flex ;
-}
-
-.header_lateral_content{
-    background-color: red;
-    padding: 0 5px;
-}
-
-#header_central_content{
-    background-color: red;
-}
-
-/*Main CSS*/
-
-main{
-    background-color: rgb(24, 87, 138);
-    height: 300px;
-}
-
-#internal_main_block{
-    background-color: grey;
-    height: 140px;
-    width: 400px;
+body
+{
+    background-color: white;
 }
 
 
 /* Common  Section CSS*/
+
 .container{
     width: 80%;
     max-width: 1170px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .row{
     display: flex;
     width: 100%;
+    
 }
 
-.col{
+.ds_homepage_sections{
+   padding-top: 3rem;
+}
+
+.col-8{
+    width: calc(100% / 12*8);
+    padding: 2.5rem 1.5rem 1.5rem ;
+}
+
+.col-4{
+    width: calc(100% / 12*4);
+    padding: 2.5rem 1.5rem 1.5rem ;
+}
+
+.col-3{
+    width: calc(100% / 12*3);
+    padding: 2.5rem 1.5rem 1.5rem ;
+}
+
+/*Header CCS*/
+#site_header{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#site_header>div{
+    background-color: red;
+    border: 3px solid black;
+}
+
+.central_column{
+    width: 60%;
+}
+.lateral_column{
+    width: 20%;
+}
+
+/*Hero CSS*/
+
+.hero_section{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.hero_card{
+    width: 760px;
+    height: 340px;
+    background-color: grey;
 }
 
 /*First Section Tags*/
 
+.card{
+   height: 100%;
+}
 
 /*Second Section Tags*/
 
 /*Third Section Tags*/
+
+.debug #site_header{
+    background-color: grey;
+}
+
+.debug .hero_section{
+    background-color: #95a8e3;
+    height: 537px;
+}
+
+.debug .row{
+    height: 431px;
+    background-color: #cec2aa;
+}
+
+.debug .col-8{
+    background-color: #8fe2aa;
+    border: solid;
+    height: 80%;
+    margin: auto;
+}
+
+.debug .col-4{
+    background-color:  #8fe2aa;
+    height: 80%;
+    margin: auto;
+}
+
+.debug .col-3{
+    background-color:  #8fe2aa;
+    height: 80%;
+    margin: auto;
+}
+
+.debug .card{
+    background-color: #85c0c6;
+}
